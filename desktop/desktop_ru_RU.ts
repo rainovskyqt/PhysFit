@@ -14,21 +14,21 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="199"/>
+        <location filename="mainwindow.ui" line="211"/>
         <source>Справочники</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="207"/>
+        <location filename="mainwindow.ui" line="219"/>
         <source>Спортсмены</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="76"/>
-        <location filename="mainwindow.ui" line="144"/>
-        <location filename="mainwindow.ui" line="233"/>
-        <location filename="mainwindow.ui" line="301"/>
-        <location filename="mainwindow.ui" line="369"/>
+        <location filename="mainwindow.ui" line="156"/>
+        <location filename="mainwindow.ui" line="245"/>
+        <location filename="mainwindow.ui" line="325"/>
+        <location filename="mainwindow.ui" line="405"/>
         <source>+</source>
         <translation type="unfinished"></translation>
     </message>
@@ -44,19 +44,19 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="87"/>
-        <location filename="mainwindow.ui" line="155"/>
-        <location filename="mainwindow.ui" line="244"/>
-        <location filename="mainwindow.ui" line="312"/>
-        <location filename="mainwindow.ui" line="380"/>
+        <location filename="mainwindow.ui" line="167"/>
+        <location filename="mainwindow.ui" line="256"/>
+        <location filename="mainwindow.ui" line="336"/>
+        <location filename="mainwindow.ui" line="416"/>
         <source>р</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="98"/>
-        <location filename="mainwindow.ui" line="166"/>
-        <location filename="mainwindow.ui" line="255"/>
-        <location filename="mainwindow.ui" line="323"/>
-        <location filename="mainwindow.ui" line="391"/>
+        <location filename="mainwindow.ui" line="178"/>
+        <location filename="mainwindow.ui" line="267"/>
+        <location filename="mainwindow.ui" line="347"/>
+        <location filename="mainwindow.ui" line="427"/>
         <source>-</source>
         <translation type="unfinished"></translation>
     </message>
@@ -66,23 +66,87 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="287"/>
+        <location filename="mainwindow.ui" line="299"/>
         <source>Категории</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="355"/>
+        <location filename="mainwindow.ui" line="379"/>
         <source>Упражнения</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="137"/>
+        <location filename="mainwindow.cpp" line="283"/>
         <source>Удаление спортсмена</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="137"/>
-        <source>Удалить %1</source>
+        <location filename="mainwindow.cpp" line="283"/>
+        <location filename="mainwindow.cpp" line="325"/>
+        <location filename="mainwindow.cpp" line="385"/>
+        <source>Удалить %1?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="295"/>
+        <location filename="mainwindow.cpp" line="355"/>
+        <source>Новая категория</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="295"/>
+        <source>Введите название новой категории</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="355"/>
+        <source>Введите название нового упражнения</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="385"/>
+        <source>Удаление упражнения</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="430"/>
+        <source>Удаление тренировки</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="430"/>
+        <source>Удалить тренировку %1?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="452"/>
+        <source>Удаление результата</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="452"/>
+        <source>Удалить результата упражнения %1?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="147"/>
+        <location filename="mainwindow.cpp" line="180"/>
+        <source>Редактирование</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="147"/>
+        <source>Новое название категории</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="180"/>
+        <source>Новое название упражнения</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="325"/>
+        <source>Удаление категории</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

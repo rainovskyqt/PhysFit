@@ -3,10 +3,10 @@
 Category::Category(QObject *parent) : QObject(parent)
 {}
 
-Category::Category(int baseId, QString name, QObject *parent) : QObject(parent)
+Category::Category(QString name, int baseId, QObject *parent) : QObject(parent)
 {
-    setBaseId(baseId);
     setName(name);
+    setBaseId(baseId);
 }
 
 int Category::baseId() const

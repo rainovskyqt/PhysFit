@@ -24,7 +24,7 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QComboBox" name="comboBox"/>
+      <widget class="QComboBox" name="cb_category"/>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="label_2">
@@ -34,7 +34,7 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QComboBox" name="comboBox_2"/>
+      <widget class="QComboBox" name="cb_exercise"/>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_4">
@@ -44,7 +44,7 @@
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="line_result"/>
      </item>
      <item row="3" column="0">
       <widget class="QLabel" name="label_3">
@@ -54,7 +54,7 @@
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QComboBox" name="comboBox_3">
+      <widget class="QComboBox" name="cb_status">
        <item>
         <property name="text">
          <string>1</string>
@@ -143,5 +143,38 @@
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btn_save</sender>
+   <signal>clicked()</signal>
+   <receiver>ResultsForm</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>88</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>ResultsForm</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>264</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

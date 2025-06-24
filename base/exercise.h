@@ -1,14 +1,14 @@
-#ifndef CATEGORY_H
-#define CATEGORY_H
+#ifndef EXERCISE_H
+#define EXERCISE_H
 
 #include <QObject>
 
-class Category : public QObject
+class Exercise : public QObject
 {
     Q_OBJECT
 public:
-    Category(QObject *parent = nullptr);
-    Category(QString name, int baseId = 0, QObject *parent = nullptr);
+    explicit Exercise(QObject *parent = nullptr);
+    Exercise(QString name, int baseId = 0, QObject *parent = nullptr);
 
     int baseId() const;
     void setBaseId(int newBaseId);
@@ -20,4 +20,4 @@ private:
     QString m_name;
 };
 
-#endif // CATEGORY_H
+#endif // EXERCISE_H

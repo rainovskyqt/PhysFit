@@ -24,7 +24,7 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QDateEdit" name="dateEdit"/>
+      <widget class="QDateEdit" name="date_date"/>
      </item>
      <item row="0" column="2">
       <spacer name="horizontalSpacer_2">
@@ -47,7 +47,7 @@
       </widget>
      </item>
      <item row="1" column="1" colspan="2">
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="line_name"/>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="label_3">
@@ -57,7 +57,7 @@
       </widget>
      </item>
      <item row="3" column="0" colspan="3">
-      <widget class="QTextEdit" name="textEdit"/>
+      <widget class="QTextEdit" name="text_comments"/>
      </item>
     </layout>
    </item>
@@ -95,5 +95,38 @@
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btn_save</sender>
+   <signal>clicked()</signal>
+   <receiver>TrainingForm</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>135</x>
+     <y>282</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>TrainingForm</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>338</x>
+     <y>280</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

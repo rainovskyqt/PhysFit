@@ -32,6 +32,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ../base/sportsmen.h ../base/sportsmen.cpp
         ../base/base.h ../base/base.cpp
         ../base/database.cpp ../base/database.h
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET desktop APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -57,6 +58,9 @@ else()
             trainingform.h trainingform.cpp trainingform.ui
             resultsform.h resultsform.cpp resultsform.ui
             ../base/category.cpp ../base/category.h
+            ../base/exercise.h ../base/exercise.cpp
+            ../base/training.h ../base/training.cpp
+            ../base/result.h ../base/result.cpp
         )
     endif()
 
