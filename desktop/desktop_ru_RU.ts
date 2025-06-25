@@ -4,11 +4,6 @@
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="mainwindow.ui" line="14"/>
-        <source>MainWindow</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="mainwindow.ui" line="25"/>
         <source>Результыты</source>
         <translation type="unfinished"></translation>
@@ -30,6 +25,11 @@
         <location filename="mainwindow.ui" line="325"/>
         <location filename="mainwindow.ui" line="405"/>
         <source>+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="14"/>
+        <source>PhysFit(0.0.0.1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -154,7 +154,7 @@
     <name>ResultsForm</name>
     <message>
         <location filename="resultsform.ui" line="14"/>
-        <source>Dialog</source>
+        <source>Результат упражнения</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -242,7 +242,7 @@
     <name>SportsmenForm</name>
     <message>
         <location filename="sportsmenform.ui" line="14"/>
-        <source>Dialog</source>
+        <source>Спортсмен</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -290,7 +290,7 @@
     <name>TrainingForm</name>
     <message>
         <location filename="trainingform.ui" line="14"/>
-        <source>Dialog</source>
+        <source>Тренировка</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
